@@ -2,31 +2,37 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    box-sizing: border-box;
 }
 
 .container {
-    width: 80%;
     margin: 0 auto;
     padding: 20px;
+    width: 80%; /* Defina a largura desejada */
+    max-width: 1200px; /* Defina um valor máximo para a largura */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
 }
 
 header {
-    background-color: #374572;
+    background-color: #333;
     color: white;
-    padding: 10px 0;
-    text-align: center;
+    padding: 1rem 0;
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+header h1 {
+    margin: 0;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center; /* Centraliza os itens do menu */
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 1rem;
 }
 
 nav ul li a {
@@ -34,43 +40,19 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-h1, h2, h3 {
-    margin-top: 0;
+section {
+    margin: 2rem 0;
 }
 
 .project-card, .course-card {
-    background-color: #f9f9f9;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-left: 4px solid #374572;
-    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 footer {
-    background-color: #374572;
-    color: white;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
-
-footer p {
-    margin: 0;
-}
-
-a {
-    color: #374572;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
 }
