@@ -6,8 +6,6 @@ body {
 }
 
 .container {
-    margin: 0 auto;
-    padding: 20px;
     width: 80%; /* Defina a largura desejada */
     max-width: 1200px; /* Defina um valor máximo para a largura */
     margin: 0 auto; /* Centraliza o contêiner horizontalmente */
